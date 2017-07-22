@@ -3,7 +3,7 @@ import java.util.*;
 
 //----------QUICKSORT----------//
 
-public class Solution {
+public class quicksort {
 
     public static long ans = 0;
 

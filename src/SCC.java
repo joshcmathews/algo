@@ -3,7 +3,7 @@ import java.util.*;
 
 //----------SCC----------//
 
-public class Solution2 {
+public class SCC {
 
 
     static int[] finTime;

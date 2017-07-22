@@ -2,7 +2,7 @@ import java.util.*;
 
 //----------MINCUT----------//
 
-public class Solution4 {
+public class mincut {
 
     static int k = 200;
 
