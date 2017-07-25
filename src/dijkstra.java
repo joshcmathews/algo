@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.*;
 
 
-public class dijkstra {
+public class Dijkstra {
     static int k = 200;
 
     public static void main(String[] args) {
@@ -42,14 +42,14 @@ public class dijkstra {
                 in.next();
         }
 
-        Dijkstra(vList);
+        dijkstra(vList);
         int[] results = {6,36,58,81,98,114,132,164,187,196};
         for (int t : results) {
             System.out.println(vList.get(t).length);
         }
     }
 
-    public static void Dijkstra(List<Vertex> vList) {
+    public static void dijkstra(List<Vertex> vList) {
         PriorityQueue<Vertex> pq = new PriorityQueue<>();
         Vertex s = vList.get(0);
         s.length = 0;

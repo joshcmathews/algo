@@ -1,9 +1,8 @@
-import java.math.BigInteger;
 import java.util.*;
 
 //----------QUICKSORT----------//
 
-public class quicksort {
+public class Quicksort {
 
     public static long ans = 0;
 
@@ -14,7 +13,7 @@ public class quicksort {
         for (int i = 0 ; i < a.length ; i++)
             a[i] = in.nextInt();
         System.out.print(Med(a, 0, 1, 2));
-        QuickSort(a);
+        quickSort(a);
 
         System.out.println(Arrays.toString(a));
         System.out.println(ans);
@@ -22,7 +21,7 @@ public class quicksort {
 
 
 
-    public static void QuickSort(int[] a) {
+    public static void quickSort(int[] a) {
         Sort(a, 0, a.length-1);
     }
 

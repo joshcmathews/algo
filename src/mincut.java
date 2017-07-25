@@ -2,7 +2,7 @@ import java.util.*;
 
 //----------MINCUT----------//
 
-public class mincut {
+public class Mincut {
 
     static int k = 200;
 
@@ -33,7 +33,7 @@ public class mincut {
                     edgeList) {
                 temp.add(new Edge(e.x, e.y));
             }
-            t = MinCut(temp);
+            t = minCut(temp);
             if (t < min)
                 min = t;
         }
@@ -44,7 +44,7 @@ public class mincut {
     }
 
 
-    public static int MinCut(List<Edge> e) {
+    public static int minCut(List<Edge> e) {
 
         while (k != 2) {
             int s = (int)(Math.random()*e.size());
